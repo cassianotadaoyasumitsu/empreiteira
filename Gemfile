@@ -29,6 +29,7 @@ gem 'redis', '~> 4.0'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'devise'
+gem 'rails_admin', '~> 2.0'
 
 gem "apartment", git: 'git@github.com:influitive/apartment.git', branch: "development"
 
