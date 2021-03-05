@@ -6,6 +6,7 @@ class SubdomainConstraint
 end
 
 Rails.application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   constraints subdomain: SubdomainConstraint do
     resources :users
   end
